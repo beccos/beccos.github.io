@@ -1,7 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,400italic,500,500italic,300italic,300);
+
 body {
 
 text-align: center;
-font-family: Helvetica;
+font-family: Ubuntu;
 border: 0px;
 
 }
