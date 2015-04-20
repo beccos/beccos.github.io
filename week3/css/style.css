@@ -1,15 +1,17 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500);
+@import url(http://fonts.googleapis.com/css?family=Questrial);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,300,400);
 
 body {
 
 text-align: center;
-font-family: 'Roboto', Arial;
+font-family: 'Open Sans', sans-serif;
 border: 0px;
 padding: 0px;
 margin: 0px;
 }
 
 h1 {
+font-family: 'Questrial', sans-serif;	
 text-transform: 900;
 color: #FFF;
 text-align: center;
@@ -19,11 +21,12 @@ font-size: 36px;
 }
 
 h2 {
-
+font-family: 'Questrial', sans-serif;
 color: #727575;
 }
 
 #slogan {
+font-family: 'Questrial', sans-serif;	
 text-decoration: ;
 font-size: 24px;
 text-align: center;
