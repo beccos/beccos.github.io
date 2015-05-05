@@ -28,7 +28,7 @@ h3{
 margin-top: 20px;
 	padding-top: 10px;
 margin-bottom: 20px;
-margin-right: 720px;
+
 
 
 }
@@ -125,8 +125,13 @@ text-align: center;
 	margin-left: 30px;
 	margin-top: 10px;
 	padding-right: 20px;
+}
 
-
+#quote h3{
+margin-top: 20px;
+	padding-top: 10px;
+margin-bottom: 20px;
+margin-right: 720px;
 }
 
 #portfolio{
@@ -170,8 +175,9 @@ margin-top: 10px;
 
 #main h3{
 padding-top: 10px;
-
+margin-right: 0px;
 }
+
 
 #main a{
 padding-left: 30px;
@@ -188,12 +194,6 @@ width: 150px;
 	font-family: 'Lora', serif;
 }
 
-#aside h3{
-margin-top: 20px;
-	padding-top: 10px;
-margin-bottom: 20px;
-
-}
 #aside h4{
 	border-bottom: #000;
 	border-bottom-style: solid;
