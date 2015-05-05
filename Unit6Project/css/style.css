@@ -188,6 +188,12 @@ width: 150px;
 	font-family: 'Lora', serif;
 }
 
+#aside h3{
+margin-top: 20px;
+	padding-top: 10px;
+margin-bottom: 20px;
+
+}
 #aside h4{
 	border-bottom: #000;
 	border-bottom-style: solid;
