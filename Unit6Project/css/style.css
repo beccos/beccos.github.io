@@ -29,7 +29,8 @@ margin-top: 20px;
 	padding-top: 10px;
 margin-bottom: 20px;
 margin-right: 720px;
-display:block;
+
+
 }
 
 h4{
@@ -144,9 +145,11 @@ padding-left: 340px;
 
 }
 
+
 .contentsq p{
 	font-family: 'Lora', serif;
 }
+
 
 #main{
 float: left;
