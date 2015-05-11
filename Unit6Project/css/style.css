@@ -16,7 +16,7 @@ h1{
 	border-bottom-style: solid;
 	border-bottom-color: #000 ;
 	float: left;
-	padding-right: 320px;
+	width: 320px;
 	margin-right: 10px;
 }
 
@@ -116,7 +116,7 @@ footer a{
 	float: left;
 	color: #000;
 	font-weight: 600;
-	margin-top: 50px;
+	margin-top: 50px; 
 	padding-right: 20px;
 }
 
@@ -132,8 +132,8 @@ footer p{
 	width: 1000px;
 	margin: 0;
 	padding: 0;
-	margin-left: 130px;
-	margin-right: 130px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
