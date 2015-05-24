@@ -1,0 +1,143 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300,300italic,400italic,600italic);
+@import url(http://fonts.googleapis.com/css?family=Lora:400,400italic);
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200px;
+	color: #393939;
+	text-decoration: none;
+}
+
+nav{
+	margin-right: 15%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-align: right;
+	display: block;
+
+}
+
+nav a{
+	color: #393939;
+	text-decoration: none;
+	margin-right: 5px;
+	display: block;
+	float: right;
+
+}
+
+header{
+      background-image: url("images/social/france.jpg");
+    background-color: # #E82C0C;
+    width: 100%;
+	text-align: center;
+	height: 300px;
+	clear: both;
+}
+h3{
+	text-align: center;
+ 	margin: 1.5em 0; 
+ 	font-size: 1.5em;
+ 	font-weight: 600;
+
+}
+
+footer{
+
+height: 5em;
+background-color: #E82C0C;
+padding: 2em 0;
+text-align: right;
+margin-top: 1em;
+margin-right: 15%;
+margin-bottom: 1em;
+display: block;
+width: 100%;
+
+}
+
+
+#wrapper{
+
+	width: auto;
+}
+
+#trio{
+
+width: 100%;
+text-align: center;
+margin: 2em 0;
+
+}
+
+
+#trio img {
+
+	margin: 3em 3em ;
+
+}
+
+#about {
+
+width: 84%;
+margin: 5% 8%;
+text-align: left;
+margin-bottom: 5%;
+padding: 3em 0;
+}
+
+#about img{
+
+	float: left;
+	margin-right: 5%;
+}
+
+#project{
+	clear:both;	
+	background-color: #FF0000;
+	margin-top: 2em; 
+	padding: 1.5em;
+}
+
+#project img{
+ 	margin: 2% 3%; 
+ 	text-align: center;
+
+}
+ #project a {
+
+	display: block;
+	text-align: center;
+}
+
+#social{
+width: 100%;
+text-align:center;
+
+}
+#social img{
+
+	margin: 2% 1%;
+}
+
+#social img:hover{
+	opacity: .75;
+}
+
+#reading a{
+
+font-weight: 500;
+border-width: 1px;	
+text-decoration: none;
+}
+
+@media screen only and (min-width: 700px){
+
+#about p{
+
+display: block;
+clear: both;
+
+}
+
+}
