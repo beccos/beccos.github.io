@@ -63,7 +63,7 @@ h1{
 	left: 25%;
 	top: 25%;
 	font-size: 4em;
-	color: #5CA0DE;
+	color: #4C85B7;
 
 }
 
@@ -73,7 +73,7 @@ h2{
 	left: 45%;
 	top: 33.5%;
 	font-size: 1.5em;
-	color: #5CA0DE;
+	color: #4C85B7;
 
 }
 
@@ -390,20 +390,20 @@ nav:hover #innernav {
 h1{
 
 	left: 11%;
-	top: 37%;
+	top: 28%;
 }
 
 
 h2{
 
-	left: 53%;
-	top: 49.5%;
+	left: 55%;
+	top: 42%;
 }
 
 h3{
 	max-width: 50%;
 	text-align: center;
- 	margin: 1.5em 30%; 
+ 	margin: 1.5em 32%; 
  	font-size: 1em;
 
  }
@@ -471,7 +471,6 @@ width: 60%;
 }
 
 #reading a{
-margin-left: 26px;
 line-height: 2.5em;
 padding: 12px 131px;
 }
