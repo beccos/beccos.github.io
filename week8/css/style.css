@@ -19,7 +19,6 @@ header{
 	margin-bottom: .5em;
 	margin-top: 1em;
     background-image: url("../images/sky-02.png");
-    background-color: #E82C0C;
     background-attachment: fixed;
     background-repeat: no-repeat;
 	text-align: center;
@@ -44,19 +43,18 @@ nav a {
 	text-decoration: none;
 	color: #eeeeee;
 	text-align: center;
-	padding: 2em 2em;
+	padding: 2em 1%;
 	display: block;
-	width: 25%;
-	padding: .5em 0;
 }
 
 #mobile {
 		display: none;
 	}
-	#innernav {
-		display: block;
-	}
 
+#innernav {
+
+	margin-left: 80%;
+	}
 
 h1{
 	position: absolute;
@@ -359,9 +357,8 @@ nav {
 }
 
 nav a {
-	text-decoration: none;
-	color: #eeeeee;
-	text-align: center;
+	text-align: left;
+	display: block;
 }
 
 
@@ -372,10 +369,17 @@ nav a {
 
 #innernav {
 	display: none;
+	margin-left: 0;
 }
 
 nav:hover #innernav {
 	display: block;
+}
+
+#innernav a{
+		clear: both;
+		padding: 1em 1em;
+
 }
 
 .clearfix:after {
@@ -385,6 +389,7 @@ nav:hover #innernav {
 	visibility: hidden;
 	height: 0;
 	font-size: 0;
+	margin: 0 0;
 }
 
 h1{
@@ -487,7 +492,28 @@ footer{
 	footer {
 		clear: both;
 
+	}
+
+	#innernav {
+		margin-left: 55%
+	}
+
 }
+
+@media only screen and (max-width: 750px) {
+#innernav {
+		margin-left: 40%
+	}
+
+}
+
+
+
+	nav a {
+		float: left;
+		padding: .5em .5em;
+		font-size: 1.5em;
+	}
 
 }
 
@@ -495,13 +521,14 @@ footer{
 	#mobile {
 		display: none;
 	}
-	#innernav {
-		display: block;
-		background-color: #0fa1a5;
-	}
+	
 	nav a {
-		float: right;
-		padding: .25em 1em;
+		float: left;
+		padding: .25em 2em;
+	}
+
+	nav{
+		text-align: right;
 	}
 
 #form a{
