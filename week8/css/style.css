@@ -133,7 +133,7 @@ footer a {
 
 	width: auto;
 }
-
+/*
 #trio{
 
 width: 100%;
@@ -142,15 +142,15 @@ text-align: center;
 margin: 2em 0;
 
 }
-
+*/
 #trio_wrapper{
-	width: 100%;
-	padding: 1em 7%;
+	width: 80%;
+	margin: 0 auto;
 }
 
 .trio_block{
-	width: 25%;
-	margin: 1em 2%;
+	width: 33%;
+	margin: 1em 0;
 	float: left;
 	text-align: center;
 
