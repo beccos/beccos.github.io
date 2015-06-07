@@ -82,7 +82,7 @@ h2{
 h3{
 	max-width: 26%;
 	text-align: center;
-  	margin: 2.5em 40%;
+  	margin: 2em 40%;
  	font-size: 1.2em;
  	font-weight: 800;
 	color: #5797D1 !important;
@@ -136,16 +136,7 @@ footer span{
 
 
 
-/*
-#trio{
 
-width: 100%;
-text-align: center;
-
-margin: 2em 0;
-
-}
-*/
 #trio_wrapper{
 	width: 80%;
 	margin: 0 auto;
@@ -257,18 +248,23 @@ text-decoration: none;
 	float: left;
 }
 
+
 input{
 	line-height: 2em;
 }
 
+form h3{
+	line-height: 1.5em;
+	margin: 0.5em 38%;
+}
+
 input, textarea,label {
 	display: block;
-	margin-left: 48%;
+	margin-left: 0;
 	margin-right: 10%;
-	margin-top: .5em;
 	border: solid 1px ;
 	box-shadow: inset 1px 1px 2px 0 #5CA0DE;
-	width: 40%;
+	width: 85%;
 	border: 2px solid #5CA0DE;
 	border-radius: 0.25em;
 	border-width: medium medium 2px;
@@ -291,7 +287,6 @@ label {
 #form a{
 	display: block;
 	width: 100px;
-	margin-left: 48.5%;
 	margin-top: 1.5em;
 	background: #393939 none repeat scroll 0% 0%;
 	color: #FFF !important;
@@ -317,11 +312,23 @@ label {
 }
 
 #form_col_1{
-	margin-left: 15%;
+	width: 45%;
+	margin-left: 10%;
 	margin-top: 8%;
 	float: left;
 }
 
+#form_col_1 img{
+width:80%;
+
+}
+#form_col_2{
+
+float: left;
+margin-top: 3em;
+width: 45%;
+
+}
 
 #social{
 clear: both;	
@@ -498,12 +505,7 @@ padding: 12px 142px;
 }
 
 
-#form_col_2{
 
-margin-top: 3em;
-width: 60%;
-
-}
 #reading{
 	padding: 2em 0;
 }
@@ -569,7 +571,6 @@ footer{
 #form a{
 	clear: both;
 	float: left;
-	margin-left: 48%;
 
 
 }
