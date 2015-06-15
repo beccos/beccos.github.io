@@ -203,26 +203,28 @@ text-decoration: none;
 }
 
 #project img{
- 	margin: 2em 3em;
- 	min-width: 40%; 
- 	max-width: 50%;
+ margin: 1em 1%;
+  min-width: 46%;
+  max-width: 63%;
 
 }
  #project a {
  	clear: both;
-	width: 8em;
+ 	display: block;
+	width: 20%;
 	background: #393939 none repeat scroll 0% 0%;
 	color: #FFF !important;
 	font-weight: 600;
 	line-height: .5em;
 	cursor: pointer;
-	padding: 8px 14px 7px;
+	padding: 15px 14px;
 	border-radius: 0.25em;
 	border-width: medium medium 2px;
 	box-shadow:none;
 	text-shadow:0px 1px 1px rgba(0, 0, 0, 0.1);
 	text-decoration: none;
-	margin: 5em 5em;
+	text-align: center;
+	margin: 0 40%;
 }
 
 #project h3{
@@ -483,7 +485,7 @@ h3{
 	margin: 0 0;	
 }
 
-
+#
 
 input, textarea {
 	width: 171%;
@@ -499,11 +501,24 @@ input, textarea {
 
 #form a{
 
-margin-left: 26px;
 line-height: 2.5em;
 padding: 12px 142px;
 }
 
+
+#form_col_1{
+float: left;
+
+}
+
+.clearfix:after{
+	display: block;
+	content: "";
+	clear: both;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+}
 
 
 #reading{
@@ -522,34 +537,42 @@ footer{
 	
 }
 
-@media only screen and (min-width: 550px) {
+
+@media only screen and (min-width: 550px){
 	
 	footer {
 		clear: both;
 
 	}
 
-	/*#innernav {
-		margin-left: 55%
-	}
 
-}
-
-@media only screen and (max-width: 750px) {
-#innernav {
-		margin-left: 40%
-	}
-
-}
-*/
-
-
+@media only screen and (min-width: 550px)and (max-width: 800px) {
+	
 	nav a {
 		float: left;
 		padding: .5em .5em;
 		font-size: 1.5em;
 	}
 
+	.trio_block {
+	  width: 50%;
+	}
+
+	#trio3 {
+		width: 100%
+
+	}
+
+	#project img{
+	  margin: 2em 25%;
+}
+	#project a{
+		margin: 1em 25%;
+		min-width: 50%;
+		padding: 12px 12px;
+		margin: 0;
+
+	}
 }
 
 @media only screen and (min-width: 800px) {
