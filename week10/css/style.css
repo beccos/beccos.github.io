@@ -445,7 +445,7 @@ h2{
 }
 
 h3{
-	max-width: 50%;
+	max-width: 60%;
 	text-align: center;
  	margin: 1.5em 32%; 
  	font-size: 1em;
@@ -479,18 +479,32 @@ h3{
 
 }
 
-#form{
+#project img{
 
-	height: 28em;	
-	margin: 0 0;	
+margin: 1em 1%;
+min-width: 46%;
+max-width: 87%;
 }
 
-#
+#project a{
+width: 80%;
+margin: 0 2%;
+padding: 30px;
+}
+
+#form{
+
+	height: 31em;	
+	margin: 0 0;	
+	padding: 1em 8% 15em;
+}
+
 
 input, textarea {
-	width: 171%;
-	margin: 1em 6%;;
+	width: 100%;
 	height: 2.5em;
+	margin: 0;xs
+
 }
 
 #form img{
@@ -502,12 +516,25 @@ input, textarea {
 #form a{
 
 line-height: 2.5em;
-padding: 12px 142px;
+padding: 12px 118px;
 }
 
 
 #form_col_1{
 float: left;
+display: block;
+width: 100%;
+margin: 0;
+
+}
+
+
+#form_col_2{
+float: left;
+display: block;
+width: 100%;
+padding: 0 ;
+
 
 }
 
@@ -526,8 +553,15 @@ float: left;
 }
 
 #reading a{
-line-height: 2.5em;
-padding: 12px 131px;
+line-height: 1.5em;
+padding: 20px 110px;
+margin: 0.5em 5%;
+display: block;
+}
+
+#social img{
+
+	width: 20% !important;
 }
 
 footer{
