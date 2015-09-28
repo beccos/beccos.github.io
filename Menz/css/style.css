@@ -1,0 +1,125 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300,300italic,400italic,600italic);
+@import url(http://fonts.googleapis.com/css?family=Lora:400,400italic);
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	font-weight: 200px;
+}
+
+h1{
+	font-size: 34px;
+	font-weight: 100;
+	float: left;
+	width: 50%;
+	margin-right: 10px;
+	min-width: 500px;
+}
+
+h2{
+	font-family: 'Open Sans', sans-serif;
+	font-style: none;
+}
+
+h3{
+	margin-top: 20px;
+	padding-top: 10px;
+	margin-bottom: 20px;
+
+}
+
+nav{
+	clear:both;
+	text-align: right;
+	margin-right: 10%;
+	margin-bottom: 1.5em;
+	min-width: 500px;
+
+}
+nav a{
+	padding: 15px;
+
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 800;
+
+}
+
+span{
+	font-size: 40px;
+	margin-left: 20px;
+
+}
+
+a:hover{
+	color: #767678;
+}
+
+blockquote {
+	text-align: left;
+	margin: 5%;
+	line-height: 1.5em;
+	font-size: 1.2em;
+	font-family: 'Lora', serif;
+	font-style: italic;
+}
+
+footer{
+	background-color: #D7D7D8;
+	color: #000;
+	text-decoration: none;
+	height: 100px;
+	line-height: 1.5em;
+	clear: both;
+	text-align: right;
+	padding-right: 10%;
+	padding-top: 1.5em;
+	min-width: 500px;
+
+}
+
+footer a{
+
+	padding: 15px;	
+}
+
+#main_content img{
+width: 100%;
+
+}
+
+#wrapper{
+
+	margin: auto;
+	width: 100%;
+	padding: 0;
+	margin:0;
+}
+
+#main_content{
+
+float:left;
+width: 100%;
+
+
+}
+
+#service{
+
+	background-image: url("img/1_truck.jpg");
+	opacity: 0.7;
+	background-color: #cccccc;
+}
+
+.content{
+
+	clear: both;
+	padding: 10px;
+
+
+}
