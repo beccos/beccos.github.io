@@ -1,47 +1,82 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300,300italic,400italic,600italic);
-@import url(http://fonts.googleapis.com/css?family=Lora:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
 
 body{
 	font-family: 'Open Sans', sans-serif;
 	padding: 0px;
 	margin: 0px;
 	text-decoration: none;
-	font-weight: 200px;
+	font-weight: 100px;
+	color: #38592E;
+	font-size: 14px;
 }
 
 h1{
+	font-family: 'Titillium Web', sans-serif;
 	font-size: 34px;
 	font-weight: 100;
 	float: left;
 	width: 50%;
-	margin-right: 10px;
-	min-width: 500px;
+	margin-left: 20px;
+	padding: 0;
+	margin-bottom: 0;
 }
 
 h2{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	font-style: none;
 }
 
 h3{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 3em;
+	line-height: 1.5em;
+	font-weight: 700;
 	margin-top: 20px;
 	padding-top: 10px;
 	margin-bottom: 20px;
+	text-align: center;
+
 
 }
 
 nav{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.5em;
 	clear:both;
-	text-align: right;
 	margin-right: 10%;
-	margin-bottom: 1.5em;
-	min-width: 500px;
+	margin-bottom: 1em;
+
+	float: right;
+
+
+
 
 }
 nav a{
 	padding: 15px;
+	text-align: right;
+	color: #38592E;
+
 
 }
+
+#top img{
+	margin-bottom: 0;
+}
+
+
+#call{
+
+	font-weight: 600;
+	font-size: 2.5em;
+	color:#CBCBCA;
+	float: right;
+	margin-right: 11%;
+	display: block;
+	margin-bottom: 0;
+}
+
 
 a{
 	text-decoration: none;
@@ -61,31 +96,35 @@ a:hover{
 }
 
 blockquote {
-	text-align: left;
-	margin: 5%;
+	text-align: center;
+	margin: 1.5em 5%;
 	line-height: 1.5em;
-	font-size: 1.2em;
-	font-family: 'Lora', serif;
-	font-style: italic;
+	margin-bottom: 0;
+
 }
 
+blockquote p{
+	margin-bottom: 0;
+}
+
+
 footer{
-	background-color: #D7D7D8;
-	color: #000;
+	background-color: #fff;
 	text-decoration: none;
 	height: 100px;
-	line-height: 1.5em;
 	clear: both;
-	text-align: right;
-	padding-right: 10%;
+	text-align: center;
 	padding-top: 1.5em;
 	min-width: 500px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 2em;
 
 }
 
 footer a{
 
 	padding: 15px;	
+	color: #467339;
 }
 
 #main_content img{
@@ -101,6 +140,12 @@ width: 100%;
 	margin:0;
 }
 
+#logo{
+
+	margin-left: 10%;
+	margin-bottom: .5em;
+}
+
 #main_content{
 
 float:left;
@@ -109,17 +154,99 @@ width: 100%;
 
 }
 
+#cta{
+
+	font-size: 1.5em;
+	font-weight: 500;
+	line-height: 2em;
+}
+
 #service{
 
-	background-image: url("img/1_truck.jpg");
-	opacity: 0.7;
-	background-color: #cccccc;
+	/*background-image: url("http://beccos.github.io/Menz/img/1_truck.jpg");*/
+	padding-bottom: 2.5em;
+}
+
+#commitment{
+
+	background-color: #467339;
+	color: #fff;
+	padding-bottom: 4.5em;
+
+}
+
+#commitment img{
+	width: 50%;
+	margin: .5em 25%;
 }
 
 .content{
 
+
+	padding: 1.5em 12%;
+
+
+}
+
+#numbers{
+	float:left;
+	font-weight: 100;
+	display: block;
+	font-size: 1.2em;
+	text-align: left;
+}
+
+#maps {
+
+	float: right;
+	max-width: 45%;
+
+	
+}
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+#logo{
+
+	margin-right: 25%;
+	margin-left: 25%;
+}
+
+#call{
+	text-align: center;
+	margin-right: 2%;
+	margin-left: 2%;
+	font-size: 28px;
+}
+}
+
+
+#service{
+	padding: 0;
+}
+
+
+
+
+#numbers{
+	max-width: 100%;
+	float:left;
+	font-weight: 100;
+	display: block;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#maps {
+	max-width: 100%
 	clear: both;
-	padding: 10px;
-
-
+	text-align: center;
+	float: none;
+	padding: 5% ;
+	
+}
 }
